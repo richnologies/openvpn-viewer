@@ -1,0 +1,32 @@
+{
+  "name": "openvpn-viewer",
+  "version": "0.0.1",
+  "description": "OpenVPN status file parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richnologies/openviewer.git"
+  },
+  "keywords": [
+    "openvpn",
+    "viewer",
+    "sessions",
+    "users"
+  ],
+  "author": "Ricardo Sanchez Gregorio <me@richnologies.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richnologies/openviewer/issues"
+  },
+  "homepage": "https://github.com/richnologies/openviewer#readme",
+  "dependencies": {
+    "chokidar": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-google": "^0.3.0"
+  }
+}
